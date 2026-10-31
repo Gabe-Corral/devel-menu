@@ -1,0 +1,13 @@
+[package]
+name = "devel-menu"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+gtk = "0.18"
+gdk = "0.18"
+gio = "0.18"
+glib = "0.18"
+gtk-layer-shell = { version = "=0.8.2", features = ["v0_6"] }
+libc = "0.2"
